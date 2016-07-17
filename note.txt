@@ -1,0 +1,12 @@
+WHAT DOES A TASK RUNNER DO?
+
+-  Performs repetitive task
+  -> Prefixing CSS rules
+  -> Compiling SASS files into CSS
+  -> Minifiying JS / CSS files
+  -> Concatenating Files
+
+TASK RUNNERS:
+
+- Grunt
+- Gulp
