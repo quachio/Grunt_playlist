@@ -1,1 +1,3 @@
 # Grunt Tutorial
+
+npm install
