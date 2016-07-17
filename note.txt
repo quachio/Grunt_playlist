@@ -20,6 +20,7 @@ INSTALLING GRUNT.JS
 - Create a package.json file
   -> npm init
 - Install grunt locally
+  -> npm install grunt --save-dev
 - Create a Gruntfile.js
 - Install plugins
 
@@ -35,3 +36,24 @@ To update all global packages, you can use
 
 Listing globally installed NPM packages and version
   - npm list -g --depth=0
+
+Find out NPM default configurations
+  - npm config list
+
+GRUNTFILE.JS
+
+- Configures our tasks and tells plugins where to find certain files
+  -> // Configuration
+  grunt.initConfig({
+    // Pass in options to plugins, reference to files etc
+  });
+
+- Load plugins into the files (e.g uglify)
+  -> // Load plugins
+  grunt.loadNpmTask('');
+
+- Register tasks which need to be ran
+  ->  // Register tasks
+    grunt.registerTask('run', function(){
+
+    });

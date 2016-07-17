@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/quachio/Grunt_playlist/issues"
   },
-  "homepage": "https://github.com/quachio/Grunt_playlist#readme"
+  "homepage": "https://github.com/quachio/Grunt_playlist#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1"
+  }
 }
