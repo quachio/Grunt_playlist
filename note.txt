@@ -10,3 +10,28 @@ TASK RUNNERS:
 
 - Grunt
 - Gulp
+
+INSTALLING GRUNT.JS
+
+- Install Node.js
+  -> Download Node
+- Install grunt-cli globally
+  -> npm install grunt-cli -g
+- Create a package.json file
+  -> npm init
+- Install grunt locally
+- Create a Gruntfile.js
+- Install plugins
+
+
+
+Side NOTES:
+
+To find out which packages need to be updated, use
+ - npm outdated -g --depth=0
+
+To update all global packages, you can use
+ - npm update -g
+
+Listing globally installed NPM packages and version
+  - npm list -g --depth=0
