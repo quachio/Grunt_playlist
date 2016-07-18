@@ -1,4 +1,4 @@
-/*!
+/*! grunt-playlist - v1.0.0 - 2016-07-17 *//*!
  * jQuery JavaScript Library v1.12.4
  * http://jquery.com/
  *
